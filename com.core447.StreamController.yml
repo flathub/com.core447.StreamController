@@ -23,15 +23,6 @@ finish-args:
 
 modules:
   - pypi-requirements.yaml
-
-  - name: git
-    make-install-args:
-      - NO_INSTALL_HARDLINKS=1
-    sources:
-      - type: archive
-        url: https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.43.1.tar.gz
-        sha256: 4977349ad66f3a6a4f4b0471af702ff412b6e407e0918eb92788e4f829605360
-
   - shared-modules/libusb/libusb.json
 
   - name: hidapi-libusb
