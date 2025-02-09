@@ -20,6 +20,7 @@ finish-args:
   - --talk-name=org.gnome.Shell.Extensions.StreamController
   - --talk-name=org.gnome.ScreenSaver
   - --talk-name=org.freedesktop.ScreenSaver
+  - --talk-name=org.cinnamon.ScreenSaver
   - --system-talk-name=org.freedesktop.UPower # Access to power management - used to get battery status
 
 modules:
