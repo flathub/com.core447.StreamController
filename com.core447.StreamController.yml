@@ -23,6 +23,12 @@ finish-args:
   - --talk-name=org.cinnamon.ScreenSaver
   - --system-talk-name=org.freedesktop.UPower # Access to power management - used to get battery status
 
+  # Tray icon
+  - --talk-name=org.kde.StatusNotifierWatcher
+  - --talk-name=com.canonical.dbusmenu 
+  - --talk-name=org.kde.StatusNotifierItem
+
+
 modules:
   - pypi-requirements.yaml
   - shared-modules/libusb/libusb.json
