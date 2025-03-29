@@ -459,8 +459,8 @@ sources:
   url: https://files.pythonhosted.org/packages/ec/43/82583712f1dd438e9476ab0ea2de50767bc156a035487f48fd7c1af9d50a/streamcontroller_plugin_tools-2.0.2-py3-none-any.whl
   sha256: 89172670080401eb2a651aade84a865987b2221776ef4a9408b0447717f960d2
 - type: file
-  url: https://files.pythonhosted.org/packages/a3/b7/fac2d01e81be119686ae94a410eadaccc60fafd959a83136b68ace3ae147/streamcontroller_streamdeck-0.1.3-py3-none-any.whl
-  sha256: 0cf7291b227950bc6e09f470089d6ad0d65807ed0594e792bb73b121443bfa46
+  url: https://files.pythonhosted.org/packages/7a/8e/a186982a8e5036308e1ec631d6a928c3967dcc43b09b1197735c1e30015a/streamcontroller_streamdeck-0.1.4-py3-none-any.whl
+  sha256: 66310efeb85736eb1fb765a1eed25b5ad5c465d8065d35bc60cc845538373382
 - type: file
   url: https://files.pythonhosted.org/packages/07/81/9df1988c908cbba77f10fecb8587496b3dff2838d4510457877a521d87fd/textual-2.1.2-py3-none-any.whl
   sha256: 95f37f49e930838e721bba8612f62114d410a3019665b6142adabc14c2fb9611
