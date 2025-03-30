@@ -15,10 +15,10 @@ build-commands:
   natsort nltk numpy opencv-python packaging patchelf pillow pip-review pipenv platformdirs
   plumbum proglog psutil pulsectl py-gcode-metadata pycairo pyclip pycparser pyenchant
   Pygments PyGObject PyGObject-stubs pymongo pyparsing pyperclip pyproject-metadata
-  Pyro5 pyspellchecker python-dateutil pyudev pyusb PyYAML RapidFuzz regex req2flatpak
-  requests requirements-parser rich rpyc serpent setproctitle setuptools six smmap
-  speedtest-cli streamcontroller-plugin-tools streamcontroller-streamdeck textual
-  tinycss2 tqdm types-setuptools typing-extensions uc-micro-py urllib3 usb-monitor
+  Pyro5 pyspellchecker python-dateutil python-wayland-extra pyudev pyusb PyYAML RapidFuzz
+  regex req2flatpak requests requirements-parser rich rpyc serpent setproctitle setuptools
+  six smmap speedtest-cli streamcontroller-plugin-tools streamcontroller-streamdeck
+  textual tinycss2 tqdm types-setuptools typing-extensions uc-micro-py urllib3 usb-monitor
   virtualenv webencodings websocket-client Werkzeug
 sources:
 - type: file
@@ -399,6 +399,9 @@ sources:
 - type: file
   url: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
   sha256: a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427
+- type: file
+  url: https://files.pythonhosted.org/packages/ee/6b/6a07f16a75e2ec74384771a3be49fd7056c09b5136a065860b32a36366aa/python_wayland_extra-0.7.0-py3-none-any.whl
+  sha256: e0ef708b7dc30ea6db72aa82b215a4de5329188ec3d7840a342537b06f289fa2
 - type: file
   url: https://files.pythonhosted.org/packages/9d/3b/c37870f68ceb067707ca7b04db364a1478fcd40c6194007fb6e492ff9a92/pyudev-0.24.3-py3-none-any.whl
   sha256: e8246f0a014fe370119ba2bc781bfbe62c0298d0d6b39c94e83102a8a3f56960
