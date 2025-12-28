@@ -3,6 +3,9 @@ name: python3-package-installation
 buildsystem: simple
 build-commands:
 - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+  --prefix=${FLATPAK_DEST} --no-build-isolation meson meson-python patchelf setuptools pip
+
+- pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
   --prefix=${FLATPAK_DEST} --no-build-isolation async-lru bcrypt blinker cairocffi
   CairoSVG certifi cffi charset-normalizer click colorama contourpy cssselect2 cycler
   dbus-python decorator defusedxml distlib dnspython evdev filelock fonttools fuzzywuzzy
