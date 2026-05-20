@@ -29,24 +29,22 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierItem
 
   # Mpris Paths for most common Flatpaks - source: https://codeberg.org/GeopJr/Turntable/src/commit/87d2b0b12d277728284ac1d1e21d3539da30d198/build-aux/dev.geopjr.Turntable.json
-  - --filesystem=~/.mozilla/firefox/firefox-mpris/:ro"
-  - --filesystem=~/.var/app/org.mozilla.firefox/.mozilla/firefox/firefox-mpris/:ro
-  - --filesystem=~/.var/app/org.mozilla.firefox/data/firefox-mpris/:ro
-  - --filesystem=~/.librewolf/firefox/firefox-mpris/:ro
-  - --filesystem=~/.var/app/io.gitlab.librewolf-community/.librewolf/:ro
-  - --filesystem=~/.floorp/firefox/firefox-mpris/:ro
-  - --filesystem=~/.var/app/app.zen_browser.zen/data/firefox-mpris/:ro
-  - --filesystem=~/.zen/firefox/firefox-mpris/:ro
-  - --filesystem=~/.var/app/one.ablaze.floorp/data/firefox-mpris/:ro
-  - --filesystem=~/.var/app/io.bassi.Amberol/cache/amberol/covers/:ro
-  - --filesystem=~/.var/app/com.github.neithern.g4music/cache/com.github.neithern.g4music/:ro
-  - --filesystem=~/.var/app/ca.edestcroix.Recordbox/data/Recordbox/:ro
-  - --filesystem=~/.var/app/org.gnome.Rhythmbox3/cache/rhythmbox/album-art/:ro
-  - --filesystem=~/.var/app/org.gnome.Lollypop/cache/lollypop/:ro
-  - --filesystem=~/.var/app/io.github.nokse22.high-tide/cache/images:ro
-  # - --filesystem=/tmp
-  # - --filesystem=xdg-data/applications
-  # - --filesystem=~/.local/share/xdg-desktop-portal:ro
+  # Deactivated for now
+  # - --filesystem=~/.mozilla/firefox/firefox-mpris/:ro"
+  # - --filesystem=~/.var/app/org.mozilla.firefox/.mozilla/firefox/firefox-mpris/:ro
+  # - --filesystem=~/.var/app/org.mozilla.firefox/data/firefox-mpris/:ro
+  # - --filesystem=~/.librewolf/firefox/firefox-mpris/:ro
+  # - --filesystem=~/.var/app/io.gitlab.librewolf-community/.librewolf/:ro
+  # - --filesystem=~/.floorp/firefox/firefox-mpris/:ro
+  # - --filesystem=~/.var/app/app.zen_browser.zen/data/firefox-mpris/:ro
+  # - --filesystem=~/.zen/firefox/firefox-mpris/:ro
+  # - --filesystem=~/.var/app/one.ablaze.floorp/data/firefox-mpris/:ro
+  # - --filesystem=~/.var/app/io.bassi.Amberol/cache/amberol/covers/:ro
+  # - --filesystem=~/.var/app/com.github.neithern.g4music/cache/com.github.neithern.g4music/:ro
+  # - --filesystem=~/.var/app/ca.edestcroix.Recordbox/data/Recordbox/:ro
+  # - --filesystem=~/.var/app/org.gnome.Rhythmbox3/cache/rhythmbox/album-art/:ro
+  # - --filesystem=~/.var/app/org.gnome.Lollypop/cache/lollypop/:ro
+  # - --filesystem=~/.var/app/io.github.nokse22.high-tide/cache/images:ro
 
 
 modules:
